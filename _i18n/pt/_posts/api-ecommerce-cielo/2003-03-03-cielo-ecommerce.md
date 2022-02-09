@@ -4484,7 +4484,7 @@ Nesse modelo, o lojista é responsavel por criar a inteligência necessaria para
 |**Criar repetição transacional**|A loja deverá enviar uma nova transação sempre que necessitar de uma Autorização|
 |**Comportamento para transação negada**|Caso uma das transações seja negada, caberá a loja a decisão de "retentar" uma nova autorização|
 
-Em todas as instancias, a recorrencia programada é uma transação padrão para a Cielo, sendo sua unica diferença a necessidade de enviar um a parametro adicional que a define como **Recorrência Própria**
+Em todas as instancias, a recorrencia própria é uma transação padrão para a Cielo, sendo sua unica diferença a necessidade de enviar um a parametro adicional que a define como **Recorrência Própria**
 
 **Paramêtro:** `Payment.Recurrent`= `True`
 
